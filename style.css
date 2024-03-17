@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    color: white; /* Branco claro para texto */
+}
+
+header {
+    background-color: #02ff39d2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background-color: rgb(39, 38, 38); /* Preto */
+    color: white; /* Branco para texto */
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.membro {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.membro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: rgb(39, 38, 38);
+    color: white; /* Branco para texto */
+}
+
+::placeholder {
+    color: white;
+    font-weight: bolder;
+  }
+
+form input, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #02ff39d2;
+    color: white;
+    border: none;
+}
+
+form button {
+    background-color: red; 
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
